@@ -13,3 +13,19 @@ It has 3 main functions
 ### What the UI looks like
 
 ![](https://i.imgur.com/r8wrxoe.jpg)
+
+### Installation
+
+For repo and later install all the app dependencies using the command.
+
+```
+npm install
+```
+
+### Start App
+
+To run the command
+
+```
+npm start 
+```
