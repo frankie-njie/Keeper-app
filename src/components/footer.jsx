@@ -1,14 +1,12 @@
 import React from "react";
-import HighlightIcon from "@material-ui/icons/Highlight";
 
-function Header() {
+function Footer() {
+  const year = new Date().getFullYear();
   return (
-    <header>
-      <h1>
-        <HighlightIcon /> Keeper
-      </h1>
-    </header>
+    <footer>
+      <p>Copyright ⓒ {year}</p>
+    </footer>
   );
 }
 
-export default Header;
+export default Footer;
